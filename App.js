@@ -35,9 +35,8 @@ class App extends Component{
         </Form.Row>
         
       <input type="radio"></input> Tu Pedido es un regalo?
-      <h1>Datos Regalo</h1>
-        {/* <input type="radio"><p>¿Su pedido es Regalo?</p></input> */}
-        <Form.Row> 
+      <h1 className="text">Datos Regalo</h1>
+          <Form.Row> 
           <Form.Group as={Col} md="" controlId="De">
           <Form.Label>De:</Form.Label>
           <Form.Control type="text" placeholder="Jose" />
