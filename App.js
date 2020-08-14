@@ -40,7 +40,7 @@ class App extends Component{
           <Form.Group as={Col} md="" controlId="De">
           <Form.Label>De:</Form.Label>
           <Form.Control type="text" placeholder="Jose" />
-        </Form.Group>
+          </Form.Group>
        
        
         <Form.Group as={Col} md="" controlId="">
